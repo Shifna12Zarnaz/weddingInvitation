@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Save the Date - Shifna & Raees</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #2C3E50;
+      background: linear-gradient(135deg, #f1f1f1, #dfe6e9);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      padding: 3rem 1rem;
+      z-index: 1;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem; /* Reduced font size */
+      color: #1A237E; /* Navy blue color */
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #3F51B5; /* Slightly lighter blue */
+      margin: 0.5rem 0 2rem;
+    }
+
+    .highlight {
+      font-family: 'Great Vibes', cursive;
+      color: #FF4081; /* Accent color for names */
+      font-size: 2.5rem;
+    }
+
+    .invitation-text {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      color: #34495E;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    .calendar {
+      margin: 2rem auto;
+      max-width: 300px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 1rem;
+    }
+
+    .calendar table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+    }
+
+    .calendar th {
+      color: #3F51B5;
+      padding: 0.5rem;
+    }
+
+    .calendar td {
+      padding: 0.6rem;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .calendar td.today {
+      background-color: #1A237E;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .countdown {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .countdown span {
+      font-weight: bold;
+      font-size: 2rem;
+      color: #E91E63;
+      margin: 0 0.3rem;
+    }
+
+    .card {
+      background: #fff;
+      margin: 1rem auto;
+      padding: 1.5rem;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      color: #C2185B;
+      margin-bottom: 0.5rem;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #00796B;
+    }
+
+    @media (min-width: 600px) {
+      h1 { font-size: 4.5rem; }
+      .highlight { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h3>
+    <h2>Save the Date</h2>
+    <h2><span class="highlight">Shifna</span> & <span class="highlight">Raees</span></h2>
+
+    <div class="invitation-text">
+       We request your esteemed presence and heartfelt prayers to celebrate the nikkah of <span class="highlight">Shifna</span> and <span class="highlight">Raees</span>.
+    </div>
+
+    <div class="calendar">
+      <table>
+        <thead>
+          <tr>
+            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+          <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+          <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+          <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+          <tr><td class="today">25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="countdown" id="countdown"></div>
+
+    <div class="card">
+      <h3>🕌 Nikah</h3>
+      <p>Date: Sunday, May 25, 2025 at 12:30 PM</p>
+      <p>Venue: Dhania Auditorium, Thengapattanam</p>
+      <a href="https://www.google.com/maps?q=Dhania+Auditorium,+Thengapattanam" target="_blank">📍 View on Google Maps</a>
+    </div>
+
+    <div class="card">
+      <h3>🎉 Reception</h3>
+      <p>Date: Saturday, May 24, 2025</p>
+      <p>Venue: Thowheed Mahal, near Abdul Khader Hospital</p>
+      <a href="https://www.google.com/maps?q=Abdul+Khader+Hospital,+Thengapattanam" target="_blank">📍 View on Google Maps</a>
+    </div>
+
+    <div class="card">
+      <h3>📿 Wedding Dua</h3>
+      <p>بارَكَ اللّهُ لَك، وَبارَكَ عَلَـيْك، وَجَمَعَ بَيْـنَكُما في خَـيْر</p>
+      <p>May Allah bless you, and shower His blessings upon you, and join you together in goodness.</p>
+    </div>
+
+    <div class="card">
+      <h3>📖 Hadith on Marriage</h3>
+      <p>"When a man marries, he has fulfilled half of his religion." - Prophet Muhammad (ﷺ)</p>
+    </div>
+  </div>
+
+  <script>
+    const countdown = () => {
+      const weddingDate = new Date("May 25, 2025 12:30:00").getTime();
+      const now = new Date().getTime();
+      const gap = weddingDate - now;
+
+      const second = 1000;
+      const minute = second * 60;
+      const hour = minute * 60;
+      const day = hour * 24;
+
+      const d = Math.floor(gap / day);
+      const h = Math.floor((gap % day) / hour);
+      const m = Math.floor((gap % hour) / minute);
+      const s = Math.floor((gap % minute) / second);
+
+      document.getElementById('countdown').innerHTML =
+        `<span>${d}</span> days <span>${h}</span> hrs <span>${m}</span> mins <span>${s}</span> secs left`;
+    };
+
+    setInterval(countdown, 1000);
+  </script>
+</body>
+</html>
